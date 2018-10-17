@@ -118,7 +118,7 @@ function popUp(event) {
     $.each($('.modal-prev'), function (i, prev) {
         prev.addEventListener('click', function () {
             $('.modal-container').eq(i).hide();
-            $('.modal-info-container').eq(i - 1).show();
+            $('.modal-container').eq(i - 1).show();
         }); //end event listener
     });
 
